@@ -1,0 +1,65 @@
+.large-thumb{
+	width: 16em;
+	height: 12em;
+}
+.med-thumb{
+	width: 12em;
+	height: 8em;
+}
+.small-thumb{
+	width: 8em;
+	height: 6em;
+}
+
+.search-result{
+	margin:1em;
+}
+
+.clear{
+	line-height:0;
+	clear: both;
+}
+	
+	
+li.search-result{
+	list-style-type:none;
+}
+
+li.search-result p{
+	padding: .2em;
+	margin: .1em;
+	margin-left: .2em;
+	line-height: 1em; 
+
+}
+
+li.search-result h4{
+	padding: .2em;
+	margin: .1em;
+	margin-left: .2em;
+	line-height: 1.2em;
+	font-weight:bold;	 
+}
+
+li.search-result img{
+	padding: .2em;
+}
+
+li.search-result .img-link{
+	cursor: pointer;
+	float: left;
+	height: 3em;
+	width: 3em;
+}
+
+#download-list > li{
+	border-bottom: 1px dashed rgba(255,0,0,.7);
+}
+
+.cancel-ajax{
+	background: url(../img/cancel.png) center;
+	height:32px;
+	width:32px;
+	display: inline-block;
+	float: left;
+}
